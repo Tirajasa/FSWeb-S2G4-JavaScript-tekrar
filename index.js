@@ -175,7 +175,7 @@ console.log("3e:",siralisayilar);
 
 //depo icin bos bir obje olustururum. depo={};
 
-depo={};
+let depo={};
 sayilar.forEach((bar)=>{
   if(depo[bar]===undefined){
     depo[bar]=1;
