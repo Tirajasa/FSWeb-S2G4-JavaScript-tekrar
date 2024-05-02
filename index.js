@@ -170,10 +170,28 @@ console.log("3e:",siralisayilar);
 //tekraredensayilar=[];
 //for (let i=0; i < sayilar.length; i++) 
 
-depo[eleman]
+//depo[eleman]
 //tekrar edilme sikligini hesaplarim.
 
 //depo icin bos bir obje olustururum. depo={};
+
+depo={};
+sayilar.forEach((bar)=>{
+  if(depo[bar]===undefined){
+    depo[bar]=1;
+  } else {
+    depo[bar]=depo[bar]+1;
+  }
+});
+tekraredensayilar= [];
+for(let bar in depo){
+if (depo[bar]!==1) {
+tekraredensayilar.push(`${bar} sayisi ${depo[bar]} tekrar edilmiştir`)
+}
+console.log(tekraredensayilar);
+}
+
+
 // her eleman icin bir dongu yaparim. .forEach()
 //eleman depoda var mi (boolean)
 //if eleman===undefined degeri bir olarak yazarim.veya artttiririm.
