@@ -185,8 +185,8 @@ sayilar.forEach((bar)=>{
 });
 tekraredensayilar= [];
 for(let bar in depo){
-if (depo[bar]!==1) {
-tekraredensayilar.push(`${bar} sayisi ${depo[bar]} tekrar edilmiştir`)
+if (depo[bar]>1) {
+tekraredensayilar.push(`${bar} sayısı ${depo[bar]} kere tekrar edilmiştir`)
 }
 console.log(tekraredensayilar);
 }
