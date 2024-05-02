@@ -1,5 +1,5 @@
 {
-  "name": "codegraded-project-js",
+  "name": "codegraded-project",
   "version": "0.0.9",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,13 @@
     "eslint": "8.11.0",
     "jest": "27.5.1",
     "nodemon": "2.0.15"
-  }
+  },
+  "description": "## Amaçlar",
+  "bugs": {
+    "url": "https://github.com/Workintech/FSWeb-S2G4-JavaScript-tekrar/issues"
+  },
+  "homepage": "https://github.com/Workintech/FSWeb-S2G4-JavaScript-tekrar#readme",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
